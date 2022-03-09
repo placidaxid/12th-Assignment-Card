@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(240, 4%, 5%);
+    background-image: url("bg1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: overlay;
+}
+
+.card{
+    width: 400px;
+    height: 600px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+.bg-con{
+    width: 100%;
+    height: 30%;
+}
+.bg-con img{
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.profile{
+    width: 160px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: white;
+    
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.details{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px 50px 0px;
+    border-bottom: 2px solid rgb(141, 141, 141);
+}
+h2{
+    font-weight: bolder;
+    font-size: 150%;
+    margin-bottom: 10px;
+}
+span{
+    font-size: 1.2rem;
+    color: grey;
+    font-weight: lighter;
+}
+p{
+    color: grey;
+}
+.reactions{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.reactions p{
+    font-size: 0.9rem;
+}
+/*
+h3{
+    font-weight: bolder;
+}
+h4{
+    font-weight: lighter;
+}
